@@ -1,7 +1,6 @@
-x = 0
-while x < 5
-  y = x * x
-  x += 1
-end 
-
-puts y
+def doubler(start)
+  puts start
+  if start < 10
+    doubler(start * 2)
+  end
+end
