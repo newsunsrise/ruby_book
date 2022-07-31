@@ -1,6 +1,9 @@
-def test(b)
-  b.map { |letter| "I like the letter: #{letter}" }
+def top
+  bottom
 end
 
-a = ["a", "b", "c"]
-p test(a)
+def bottom
+  puts "Reached the bottom"
+end
+
+top
